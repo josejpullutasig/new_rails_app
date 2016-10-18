@@ -1,0 +1,8 @@
+<h1>Hello World!</h1>
+<%= @myarray%>
+<% @myarray.each do |number| %>
+	<%= number %></br>
+<% end %>
+<%= link_to("mylink", :controller => 'demo', :action => 'nyt') %><br>
+
+<%= link_to("another link", :action => :index, :page => 3, :area  => "somthing here") %>
